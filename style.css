@@ -362,6 +362,26 @@ a:hover {
     z-index: 2;
 }
 
+.bloc-md > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
+    font-size: 24px;
+    width: 90%;
+    margin: auto;
+}
+
+.col-xs-12 > p:nth-child(1) > span:nth-child(1) {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.col-xs-12 > p:nth-child(1) {
+    width: 90%;
+    margin: auto;
+}
+
+#bloc-4-portfolio > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+    width: 90%;
+    margin: auto;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -702,6 +722,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
