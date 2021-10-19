@@ -26,7 +26,6 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
 .bloc {
     width: 100%;
     clear: both;
@@ -362,8 +361,7 @@ a:hover {
     z-index: 2;
 }
 
-.bloc-md > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
-    font-size: 24px;
+.bloc-md > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
     width: 90%;
     margin: auto;
 }
@@ -382,6 +380,12 @@ a:hover {
     width: 90%;
     margin: auto;
 }
+
+#bloc-5-cta > div:nth-child(1) > div:nth-child(1) > h2:nth-child(1) {
+    margin: auto 5%;
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
